@@ -3,16 +3,31 @@
  * and scoped locally.
  */
 
+.wrapper {
+  display: flex;
+  flex: 1;
+  background-color: rgb(44, 47, 51);
+}
+
 .heroBanner {
+  flex: 1;
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
+.logo {
+  max-width: 300px;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
+  }
+
+  .logo {
+    width: 80%
   }
 }
 
