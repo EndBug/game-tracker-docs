@@ -13,4 +13,4 @@ jobs:
         with:
           cache: npm
       - run: npm ci
-      - run: npm deploy
+      - run: npm run deploy
