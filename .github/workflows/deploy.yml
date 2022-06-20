@@ -15,7 +15,7 @@ jobs:
         with:
           cache: npm
       - run: npm ci
-      - run: npm run deploy
+      - run: npm run build
+      - run: npm run deploy -- -r https://git:${DEPLOYMENT_PAT}@github.com/EndBug/game-tracker-docs.git -u "${GITHUB_ACTOR} <${GITHUB_ACTOR}@users.noreply.github.com>"
         env:
-          USE_SSH: true
-          GIT_USER: ${{ github.actor }}
+          DEPLOYMENT_PAT: ${{ github.token }}
