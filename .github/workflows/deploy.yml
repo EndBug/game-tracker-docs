@@ -1,0 +1,16 @@
+name: Deploy
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: GitHub Pages
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: npm
+      - run: npm ci
+      - run: npm deploy
