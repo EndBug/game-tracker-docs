@@ -1,0 +1,19 @@
+name: Update
+on:
+  workflow_dispatch:
+
+jobs:
+  readme:
+    name: README
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - run: curl https://raw.githubusercontent.com/EndBug/game-tracker/main/README.md > docs/readme.md
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: docs/readme.md
+          message: 'docs: update readme.md'
+          author_name: ${{ github.event.sender }}
+          author_email: ${{ github.event.sender }}@users.noreply.github.com
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
