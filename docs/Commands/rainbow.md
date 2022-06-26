@@ -121,7 +121,7 @@ _Saves your account in the bot's database._
 > Usage: `/r6 link [username] [platform]`
 
 After you link your account, you'll be able to use the stats commands without having to specify the username and platform.
-If you want to know more about how the bot manages and stores accounts, click [here](/other/stored_data).
+If you want to know more about how the bot manages and stores accounts, click [here](../stored_data).
 
 ### `/r6 unlink`
 
