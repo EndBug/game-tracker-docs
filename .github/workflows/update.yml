@@ -8,6 +8,8 @@ jobs:
   readme:
     name: README
     runs-on: ubuntu-22.04
+    env:
+      ACTOR: ${{ (github.event_name == 'repository_dispatch' && github.event.client_payload.actor) || github.actor }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -19,7 +21,7 @@ jobs:
         with:
           add: docs/readme.md
           message: 'docs: update readme.md'
-          author_name: ${{ github.event.sender }}
-          author_email: ${{ github.event.sender }}@users.noreply.github.com
+          author_name: $ACTOR
+          author_email: $ACTOR@users.noreply.github.com
           committer_name: GitHub Actions
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
