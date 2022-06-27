@@ -21,7 +21,7 @@ jobs:
         with:
           add: docs/readme.md
           message: 'docs: update readme.md'
-          author_name: $ACTOR
-          author_email: $ACTOR@users.noreply.github.com
+          author_name: ${{ env.ACTOR }}
+          author_email: ${{ env.ACTOR }}@users.noreply.github.com
           committer_name: GitHub Actions
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com
