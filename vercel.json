@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    {
+      "source": "/test-invite",
+      "destination": "https://discord.com/oauth2/authorize?client_id=475421235950518292&permissions=16384&scope=bot%20applications.commands"
+    }
+  ]
+}
