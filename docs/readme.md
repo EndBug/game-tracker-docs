@@ -17,7 +17,7 @@ Game Tracker is an open-source Discord bot that is able to fetch stats from your
 
 It's very simple:
 
-1.  Go to [this link](https://discord.com/api/oauth2/authorize?client_id=475421235950518292&permissions=16384&scope=bot%20applications.commands)
+1.  Go to [this link](/invite)
 2.  Select the server you want to add the bot to (you must be owner/admin of the server)
 3.  Confirm (the permissions asked are necessary, without them the bot could not work properly)
 
@@ -28,15 +28,15 @@ The slash commands menu already has basic info about the commands, but there's m
 
 The currently supported games are:
 
-- [Overwatch](/)
-- [Rainbow Six Siege](/)
+- [Overwatch](/docs/Commands/overwatch)
+- [Rainbow Six Siege](/docs/Commands/rainbow)
 
 You can see the preview of each game's commands by looking either at the docs (click the name of the game in the above list) or at the dedicated channel in the "examples" category of the [support server](#what-if-i-have-a-problem).  
 More games are yet to come ;)
 
 ### What if I have a problem?
 
-You can get an invite for the support server through the `support` command.  
+To join the official support server, click [here](/support).  
 For a more developer-friendly report, please use the Issues section of this repository: [link](https://github.com/EndBug/game-tracker/issues)
 
 ## Contributors
