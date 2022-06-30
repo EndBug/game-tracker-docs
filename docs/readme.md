@@ -31,7 +31,7 @@ The currently supported games are:
 - [Overwatch](/docs/Commands/overwatch)
 - [Rainbow Six Siege](/docs/Commands/rainbow)
 
-You can see the preview of each game's commands by looking either at the docs (click the name of the game in the above list) or at the dedicated channel in the "examples" category of the [support server](#what-if-i-have-a-problem).  
+You can see the preview of each game's commands by looking either at the docs (click the name of the game in the above list) or at the dedicated channel in the "examples" category of the [support server](/support).  
 More games are yet to come ;)
 
 ### What if I have a problem?
