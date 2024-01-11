@@ -49,20 +49,6 @@ const config = {
             label: 'Docs'
           },
           {
-            href: '/support',
-            prependBaseUrlToHref: true,
-            target: '_blank',
-            rel: 'noopener noreferrer',
-            label: 'Support server'
-          },
-          {
-            href: '/invite',
-            prependBaseUrlToHref: true,
-            target: '_blank',
-            rel: 'noopener noreferrer',
-            label: 'Invite the bot'
-          },
-          {
             href: 'https://github.com/EndBug/game-tracker',
             label: 'GitHub',
             position: 'right'
